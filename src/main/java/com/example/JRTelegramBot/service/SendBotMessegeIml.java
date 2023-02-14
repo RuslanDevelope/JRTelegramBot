@@ -24,7 +24,6 @@ public class SendBotMessegeIml implements SendBotMessageService {
         try {
             javarushBot.execute(sendMessage);
         } catch (TelegramApiException e) {
-            //todo add logging to the project.
             e.printStackTrace();
         }
     }
